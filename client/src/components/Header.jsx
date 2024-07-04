@@ -15,7 +15,7 @@ function Header() {
                         <Link to={'/'}> <li>Home</li></Link>
                         <Link to={'/about'}><li>About</li> </Link>
                         <Link to={'/profil'}><li>Profil</li> </Link>
-                        <Link to={'/login'} ><li>Login</li> </Link>  
+                        <Link to={'/login'} ><li>Login</li> </Link>   
                         <Link to={'/signup'}><li>Signup</li> </Link>
                     </ul>
                 </div>
