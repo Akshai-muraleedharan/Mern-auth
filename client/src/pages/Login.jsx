@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link,useNavigate } from 'react-router-dom'
 import { signInStart,signInFailure,signInSuccess } from '../Redux/user/userSlice'
 import { useDispatch, useSelector } from 'react-redux'
+import OAth from '../components/OAth'
 
 function Login() {
 
@@ -59,6 +60,7 @@ function Login() {
         <button disabled={loading}  className='bg-slate-700 text-white p-3 rounded-lg uppercase disabled:opacity-95 hover:opacity-80'>
          {loading ? "loading..." : "sign in"}
           </button>
+          < OAth />
       </form>
       <div className='flex gap-2 mt-5'>
         <p>Dont Have an Account ?</p>
